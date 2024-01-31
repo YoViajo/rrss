@@ -1,0 +1,15 @@
+# Buscar ubicaciones Instagram cercanas a las coordenadas dadas (Manzana 1, Santa Cruz, SC).
+# La lista de ubicaciones es guardada como un archivo CSV en "locs.csv". 
+
+python3 instagram-locations.py --session "430502866%3AnUsxlKhj4HUk6I%3A19" --lat -17.782981 --lng -63.181073 --csv locs.csv
+
+
+# Buscar ubicaciones Instagram cerca del centro de Santa Cruz, SC. Abrir el archivo resultante "map.html" en un navegador para ver las ubicaciones.
+python3 instagram-locations.py --session "430502866%3AnUsxlKhj4HUk6I%3A19" --lat -17.782981 --lng -63.181073 --map map.html
+
+
+# Ubicación de la plaza 24 Sep
+-17.782981,-63.181073
+
+# Instagram session ID
+430502866%3AnUsxlKhj4HUk6I%3A19
